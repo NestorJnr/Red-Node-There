@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('Nestor',{
+        category: 'function',
+        color: '#00FF00',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "chip.png",
+        label: function() {
+            return this.name||"Nestor";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="Nestor">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="Nestor">
+    <p>A simple node that converts the message payloads into all Nestor characters</p>
+</script>
