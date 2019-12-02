@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('examplecanon',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "",
+        label: function() {
+            return this.name||"examplecanon";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="examplecanon">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="examplecanon">
+    <p>A simple node that converts the message payloads into all Nestor characters</p>
+</script>
