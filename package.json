@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-example-lower-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NestorJnr/Red-Node-There.git"
+  },
+  
+  "author": "NestorJr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NestorJnr/Red-Node-There.git"
+  },
+  "homepage": "https://github.com/NestorJnr/Red-Node-There.git",
+  "dependencies": {
+    "blynk-library": "~0.0.16",
+    "path": ""
+  },
+  "node-red": {
+    "nodes": {
+      "lower-case": "lower-case.js"
+    }
+  }
+}
