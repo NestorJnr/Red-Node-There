@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tzapu/node-red-contrib-blynk.git"
+  },
+  "keywords": [
+    "node-red",
+    "blynk"
+  ],
+  "author": "NestorJr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tzapu/node-red-contrib-blynk/issues"
+  },
+  "homepage": "https://github.com/tzapu/node-red-contrib-blynk",
+  "dependencies": {
+    "blynk-library": "~0.0.16",
+    "path": ""
+  },
+  "node-red": {
+    "nodes": {
+        "blynk": "blynk.js"
+    }
+  }
+}
